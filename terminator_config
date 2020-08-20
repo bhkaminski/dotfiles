@@ -1,0 +1,41 @@
+[global_config]
+  borderless = False
+  enabled_plugins = ,
+  hide_from_taskbar = True
+  suppress_multiple_term_dialog = True
+[keybindings]
+  hide_window = F12
+  page_down_half = <Shift>Page_Down
+  page_up_half = <Shift>Page_Up
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = c1f22bfe-380e-46a0-ae3a-b789acfca733
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      profile = Solarized
+      size = 1920, 800
+      title = brooks@Lappytop: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      type = Terminal
+      uuid = c1f22bfe-380e-46a0-ae3a-b789acfca733
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.96
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    icon_bell = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
